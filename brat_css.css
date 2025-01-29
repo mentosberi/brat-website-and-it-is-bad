@@ -1,0 +1,20 @@
+body{
+    background-color:#8ACE00;
+}
+
+.container{
+    padding: 70px 0;
+    text-align: center;
+    
+}
+
+p{
+    font-family: 'Arial Narrow';
+    font-size: 180px;
+    filter: blur(2px);
+    animation: animation 10s infinite;
+}
+
+@keyframes animation{
+    100% {transform: rotate(360deg);}
+}
